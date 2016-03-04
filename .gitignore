@@ -2,6 +2,7 @@
 *.psd
 *~
 .env
+.idea
 node_modules/
 bower_components/
 build/
