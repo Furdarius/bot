@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+    app:
+        image: node:latest
+        env_file: ./docker/.env
+        volumes:
+            - './:/app'
+        working_dir: /app
+        command: npm start

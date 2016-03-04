@@ -1,0 +1,8 @@
+*.zip
+*.psd
+*~
+.env
+node_modules/
+bower_components/
+build/
+temp/
